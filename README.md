@@ -45,6 +45,18 @@ Start tag 	Element content 	End tag
 <p> 	My first paragraph. 	</p>
 <br> 	none 	none
 
+
+HTML Attributes:-
+
+    All HTML elements can have attributes
+    Attributes provide additional information about elements
+    Attributes are always specified in the start tag
+    Attributes usually come in name/value pairs like: name="value"
+
+    
+
+
+
 Note: Some HTML elements have no content (like the <br> element). These elements are called empty elements. Empty elements do not have an end tag!
 Web Browsers
 
