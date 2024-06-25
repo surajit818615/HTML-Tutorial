@@ -1,7 +1,7 @@
 # HTML
 What is HTML?
 
-    i) HTML stands for Hyper Text Markup Language
+   i) HTML stands for Hyper Text Markup Language
    ii) HTML is the standard markup language for creating Web pages
   iii) HTML describes the structure of a Web page
    iv) HTML consists of a series of elements
@@ -40,19 +40,33 @@ An HTML element is defined by a start tag, some content, and an end tag:
 The HTML element is everything from the start tag to the end tag:
 <h1>My First Heading</h1>
 <p>My first paragraph.</p>
-Start tag 	Element content 	End tag
-<h1> 	My First Heading 	</h1>
-<p> 	My first paragraph. 	</p>
-<br> 	none 	none
 
-
-HTML Attributes:-
+# HTML Attributes:-
 
     All HTML elements can have attributes
     Attributes provide additional information about elements
     Attributes are always specified in the start tag
     Attributes usually come in name/value pairs like: name="value"
 
+ # HTML Text Formatting:-
+    Formatting elements were designed to display special types of text:
+
+    <b> - Bold text
+    <strong> - Important text
+    <i> - Italic text
+    <em> - Emphasized text
+    <mark> - Marked text
+    <small> - Smaller text
+    <del> - Deleted text
+    <ins> - Inserted text
+    <sub> - Subscript text
+    <sup> - Superscript text
+
+# HTML quotation:-
+# HTML Quotation and Citation Elements
+     <blockquote>,<q>, <abbr>, <address>, <cite>, and <bdo> HTML elements.
+
+  
     
 
 
