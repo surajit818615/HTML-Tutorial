@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn_all_about Link</title>
+</head>
+<body>
+    <h1 style="background-color: aqua;">Link</h1>
+    <!--HTML Links - The target Attribute
+
+By default, the linked page will be displayed in the current browser window. To change this, you must specify another target for the link.
+
+The target attribute specifies where to open the linked document.
+
+The target attribute can have one of the following values:
+
+    _self - Default. Opens the document in the same window/tab as it was clicked
+    _blank - Opens the document in a new window or tab
+    _parent - Opens the document in the parent frame
+    _top - Opens the document in the full body of the window
+-->
+    <p style="background-color: blue;">Here everything about google</p>
+    <a href="https://www.google.com/">Google</a>
+    <p style="background-color: rgb(219, 15, 192);">MDN references all about HTML</p><!--This is for terget is blank-->
+    <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element" target="_blank">MDN HTML</a>
+    <p style="background-color: yellow;">W3school Learn all about HTML links</p> <!--This is for terget ids parent-->
+    <a href="https://www.w3schools.com/html/html_links.asp" target="_parent">W3School HTML links</a>
+   
+    <!-- HTML Links - Use an Image as a Link
+
+To use an image as a link, just put the <img> tag inside the <a> tag: -->
+    <p style="color: red;">Use an Image as a Link</p>
+    <a href="monalisha.jpg">Monalisha</a>
+
+    <!--Link to an Email Address
+
+Use mailto: inside the href attribute to create a link that opens the user's email program (to let them send a new email):-->
+    <p style="color: green;">Link to an email address</p>
+    <a href="mailto:surajitmandal4701@gmail.com">Send mail</a>
+
+    <!--Button as a Link
+
+To use an HTML button as a link, you have to add some JavaScript code.
+
+JavaScript allows you to specify what happens at certain events, such as a click of a button:-->
+    <p style="color: rgb(0, 225, 255);">Button as a link</p>
+    <button onclick="document.location='www.geeksforgeeks.org/html-tutorial/'">HTML Tutorial</button>
+
+
+
+</body>
+</html>
